@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form-body{
+    font-family: 'Hina Mincho', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: darkblue;
+    color: white;
+    width: 35%;
+    margin: auto;
+    margin-top: 10%;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+body{
+    background-color: rgb(92, 92, 202);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    margin-top: 30px;
+}
+
+textarea{
+    margin-top: 30px;
+    resize: none;
+}
+
+.submit-btn{
+    margin-top: 20px;
+    background-color: rgb(69, 224, 69);
+    font-size: 1.1rem;
+}
+
+input, textarea{
+    padding: 10px;
+    border: none;
+}
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+
+.domain-options{
+    display: flex;
+    flex-direction: column;
+}
+
+.domain-options div{
+    margin-bottom: 10px;
+}
+
+.domain-heading{
+    margin-bottom: 10px;
+}
+
+.source-heading{
+    margin-bottom: 10px;
+}
+
+.source .radio-options label{
+    margin-bottom: 10px;
+}
