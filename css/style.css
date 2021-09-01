@@ -1,44 +1,19 @@
 
 /*Registration form*/
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 body{
     background-image: url('https://images.pexels.com/photos/1631677/pexels-photo-1631677.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-color: rgb(92, 92, 202);
 }
 
-.upper{
-    background-color: antiquewhite;
-    align-items: center;
-    height: 400px;
-    width: 500px;
-    margin-top: 100px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 10px;
-}
-h2 {
-    text-shadow: 2px 2px 5px rgb(209, 188, 188);
-    color: aliceblue;
-  }
-
-  .textMargin{
-    text-align: center;
-    color: aliceblue;
-  }
-  .textSize{
-      font-size: 20px;
-  }
-  .upperRegistration{
-    background-color: rgb(0, 0, 0, 0.7);
-    align-items: center;
-    height: 620px;
-    width: 1000px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    box-shadow: 0 4px 8px 0 rgba(104, 98, 98, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 10px;
-=======
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+form{
+    display: flex;
+    flex-direction: column;
 }
 
 .form-body{
@@ -56,14 +31,6 @@ h2 {
     margin-bottom: 50px;
 }
 
-body{
-    background-color: rgb(92, 92, 202);
-}
-
-form{
-    display: flex;
-    flex-direction: column;
-}
 
 label{
     margin-top: 30px;
@@ -110,3 +77,37 @@ input:focus, textarea:focus, select:focus{
     margin-bottom: 10px;
 
 }
+
+.upper{
+    background-color: antiquewhite;
+    align-items: center;
+    height: 400px;
+    width: 500px;
+    margin-top: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+h2 {
+    text-shadow: 2px 2px 5px rgb(209, 188, 188);
+    color: aliceblue;
+  }
+
+  .textMargin{
+    text-align: center;
+    color: aliceblue;
+  }
+  .textSize{
+      font-size: 20px;
+  }
+  .upperRegistration{
+    background-color: rgb(0, 0, 0, 0.7);
+    align-items: center;
+    height: 620px;
+    width: 1000px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 8px 0 rgba(104, 98, 98, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+
+
+
