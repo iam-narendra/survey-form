@@ -168,7 +168,7 @@ form.sign-in-form {
   top: -10%;
   right: 48%;
   transform: translateY(-50%);
-  transition: 1.8s ease-in-out;
+  transition: 0.8s ease-in-out;
   border-radius: 50%;
   z-index: 6;
 }
