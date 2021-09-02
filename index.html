@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap" rel="stylesheet">
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="form-body">
+        <h1 class="heading">Survey Form</h1>
+        <p class="description">Thank you for taking the time to fill this form</p>
+
+      <form action="#">
+        <label for="name"> Name </label>
+        <input type="text" name="name" id="name" />
+
+        <label for="email"> Email </label>
+        <input type="email" name="email" id="email" />
+
+        <label for="age"> Age (optional) </label>
+        <input type="number" name="number" id="number" />
+
+        <label for="role"> Choose Your Current Role </label>
+        <select name="role" id="role">
+          <option value=""></option>
+          <option value="Student">Student</option>
+          <option value="Student">Fresher</option>
+          <option value="Student">Experienced</option>
+        </select>
+
+        <label for="source" class="source-heading">From Where did you hear about FTS? </label>
+        <div class="radio-options">
+          <input type="radio" id="Friends" name="source" value="Friends" />
+          <label for="Friends">Friends</label><br />
+          <input type="radio" id="Internet" name="source" value="Internet" />
+          <label for="Internet">Internet</label><br />
+          <input type="radio" id="employee" name="source" value="employee" />
+          <label for="employee">Employee</label>
+        </div>
+
+        <label for="domain" class="domain-heading">What type of work are you looking for?</label>
+        <div class="domain-options">
+            <div>
+                <input type="radio" id="web development" name="domain" value="web development">
+                <label for="web development">Web Development</label>
+            </div>
+
+            <div>
+                <input type="radio" id="digital marketing" name="domain" value="digital marketing">
+                <label for="digital marketing">Digital Marketing</label>
+            </div>
+
+            <div>
+                <input type="radio" id="event management" name="domain" value="event management">
+                <label for="digital marketing">Event Management</label>
+            </div>
+
+            <div>
+                <input type="radio" id="hr" name="domain" value="hr">
+                <label for="hr">HR</label>
+            </div>
+
+            <div>
+                <input type="radio" id="operating and marketing" name="domain" value="operating and marketing">
+                <label for="operating and marketing">Operating and Marketing</label>
+            </div>
+
+           <div>
+            <input type="radio" id="Sales" name="domain" value="Sales">
+            <label for="sales">Sales and Marketing</label>
+           </div>
+        </div>
+
+        <textarea name="message" id="message" cols="55" rows="8" placeholder="Enter your message here!"></textarea>
+
+        <input class="submit-btn" type="submit" value="Submit">
+      </form>
+    </div>
+  </body>
+</html>
+
