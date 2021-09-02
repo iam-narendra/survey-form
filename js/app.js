@@ -1,12 +1,14 @@
-const sign_in_btn = document.querySelector("#sign-in-btn");
-const sign_up_btn = document.querySelector("#sign-up-btn");
-const container = document.querySelector(".container-survey");
 
-sign_up_btn.addEventListener("click", () => {
-  container.classList.add("sign-up-mode");
-});
 
-sign_in_btn.addEventListener("click", () => {
-  container.classList.remove("sign-up-mode");
-});
+function authenication(){
+  var uname = document.forms["myforms"]["username"].value;
+  var pass = document.forms["myforms"]["password"].value;
+  if(uname=="admin" && pass=="1234")
+  {
+    window.location.href="SignUp.html";
+  }
+  else{
+    alert("invalid");
+  }
+}
 

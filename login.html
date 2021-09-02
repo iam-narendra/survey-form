@@ -11,7 +11,8 @@
     <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/login.css" />
     <script src="js/app.js"></script>
-    <title>Survey Form</title>
+    <title>Login Form</title>
+    
 </head>
 
 <body>
@@ -28,7 +29,7 @@
                         <i class="fas fa-lock"></i>
                         <input name="password" type="password" placeholder="Password" />
                     </div>
-                    <input type="submit" value="login" class="btn solid" onclick="authentication()"/>
+                    <input type="submit" value="login" id="loginto" class="btn solid" onclick="authenication()"/>
                     <p class="social-media">Sign up with others</p>
                     <div class="social-media">
                         <a href="#" class="social-icon">
@@ -86,7 +87,7 @@
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
                         ex ratione. Aliquid!
                     </p>
-                    <button class="btn solid" id="sign-up-btn">
+                    <button class="btn solid" id="sign-up-btn" onclick="window.location.href='/SignUp.html'">
                         Sign Up
                     </button>
                 </div>
