@@ -6,10 +6,7 @@
     padding:0;
     box-sizing:border-box;
 }
-body{
-    background-image: url('https://images.pexels.com/photos/1631677/pexels-photo-1631677.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
-    background-color: rgb(92, 92, 202);
-}
+
 
 form{
     display: flex;
@@ -94,7 +91,7 @@ h2 {
 
   .textMargin{
     text-align: center;
-    color: aliceblue;
+    color: rgb(7, 7, 7);
   }
   .textSize{
       font-size: 20px;
@@ -103,11 +100,25 @@ h2 {
     background-color: rgb(0, 0, 0, 0.7);
     align-items: center;
     height: 620px;
-    width: 1000px;
+    width: 700px;
     margin-top: 50px;
     margin-bottom: 50px;
     box-shadow: 0 4px 8px 0 rgba(104, 98, 98, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 10px;
   }
+  .textColor{
+      color: white;
+  }
+.bgimage{
+    background-color: white;
+}
+.btcolor{
+    background-color: #73eb6b;
 
+}
+.imgmargin{
+    margin-top: 20px;
+    margin-left: 20px;
+    image-resolution: f;
+}
 

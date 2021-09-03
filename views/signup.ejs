@@ -14,43 +14,52 @@
   <title>Signup Form</title>
 </head>
 
-<body>
+<body class="bgimage">
+  <img class="imgmargin"
+    src="https://media-exp1.licdn.com/dms/image/C560BAQE5SlcIblxirQ/company-logo_200_200/0/1625905444964?e=1637798400&v=beta&t=BFgC1CB7aDUMwHqaJLJ1R9mlEfXvx9LQADlgbDYCL50"
+    width="80px" height="80px" alt="FTS Logo">
   <div class="container upperRegistration my-lg-5">
-    <h2 class="textMargin">Signup for FTS</h2>
-    <form class="my-4" action="/signup" method="POST">
-      <div class="form-floating mb-3">
-        <input type="text" class="form-control" name="name" id="name" placeholder="Name" required>
+    <div>
+      <h2 class="textMargin">Signup for FTS</h2>
+    </div>
+    <form action="/signup" method="POST">
+      <div class="form-group textColor">
         <label for="name">Name</label>
+        <input type="text" class="form-control" id="name" name="name" aria-describedby="textHelp"
+          placeholder="Enter your name" required>
       </div>
-      <div class="form-floating mb-3">
-        <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
-        <label for="email">Email</label>
+      <div class="form-group textColor">
+        <label for="email">Email address</label>
+        <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp"
+          placeholder="Enter your email">
       </div>
-      <div class="form-floating mb-3">
-        <input type="text" class="form-control" name="phoneno" id="phoneno" placeholder="Phone No." required>
+      <div class="form-group textColor">
         <label for="phoneno">Phone No.</label>
+        <input type="text" class="form-control" name="phoneno" id="phoneno" aria-describedby="textHelp"
+          placeholder=" Enter your Phone No." required>
       </div>
-      <div class="form-floating mb-3">
-        <input type="text" class="form-control" id="collegename" name="collegename" placeholder="College Name" required>
+      <div class="form-group textColor">
         <label for="collegename">College Name</label>
+        <input type="text" class="form-control" id="collegename" name="collegename" aria-describedby="textHelp"
+          placeholder="Enter your college name" required>
       </div>
-      <div class="form-floating mb-3">
-        <input type="password" class="form-control" name="password" id="password" placeholder="Password" required>
+      <div class="form-group textColor">
         <label for="password">Password</label>
+        <input type="password" class="form-control" name="password" id="password" aria-describedby="passwordHelp"
+          placeholder="Enter your password" required>
       </div>
-      <div class="form-floating mb-3">
-        <input type="password" class="form-control" id="cpassword" name="cpassword" placeholder="Confirm Password"
-          required>
+      <div class="form-group textColor">
         <label for="cpassword">Confirm Password</label>
+        <input type="password" class="form-control" name="cpassword" id="cpassword" aria-describedby="passwordHelp"
+          placeholder="Enter your password" required>
       </div>
-      <div class="form-floating mb-3 d-grid gap-2 col-8 mx-auto my-4 ">
-        <button type="submit " value="submit" id="submit" class="btn btn-primary btn-lg btn-block">Submit</button>
+      <div class="form-floating mb-3 d-grid gap-2 col-8 mx-auto my-5">
+        <button type="submit " value="submit" id="submit" class="btn btcolor btn-lg btn-block">Submit</button>
 
         <p class="textSize textMargin"><b>Have account ? <a href="/">Login</a></b></p>
       </div>
-  </div>
 
-  </form>
+    </form>
   </div>
 </body>
 
