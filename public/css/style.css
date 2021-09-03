@@ -110,7 +110,9 @@ h2 {
       color: white;
   }
 .bgimage{
-    background-color: white;
+    background-image: url('https://cdn1.vectorstock.com/i/1000x1000/74/35/blue-curve-corner-isolated-on-white-background-vector-27907435.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .btcolor{
     background-color: #73eb6b;
